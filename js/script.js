@@ -79,7 +79,7 @@ function startGame() {
                 btn2.style.display = "none";
                 btn3.style.display = "none";
                 btn1.style.display = "block";
-                btn1.innerHTML = "Player " + (start_player + 1).toString() + " Generate";
+                btn1.innerHTML = "Player " + (start_player).toString() + " Generate";
                 btn.onclick = nextSequence(start_player);
             }
         })
